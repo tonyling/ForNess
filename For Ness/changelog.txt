@@ -1,0 +1,21 @@
+**THIS SITE HAND CODED BY TONY LING FOR NESELDA PABILONA FOR CHRISTMAS 2012**
+Site coded overnight on 12/25/12, presented the same day.
+Borrowed code and otherwise stated somewhere in source or on page.
+
+CHANGE LOG
+__________
+
+1/1/2013		Added jQuery 1.8.3 library, as well as own coded jscript.js, both files located within 'src' folder.
+			Check out the javascript, .js, files if you wanna look into how javascript is implemented.
+		
+			1.	Navigation DIV elements(ie Main/Photos/RealPhotos) changed so clicking on them redirects.
+				This makes it so you don't need to be precise and click on the links direclty, just the bubble.
+
+			2.	Added fading background layer when you click an image.  The image pops up, centers onto
+				the screen, and background gets darker.  When you click on background or image, screen
+				goes back to normal.
+
+			3.	Header Koala's nose glow.  When clicked, opens up image of letter koala wrote me for valentine's day.
+				background img from 'http://www.goodfon.com/wallpaper/124390.html'
+
+1/5/2013		Added fadeIn(300) for both #bgFade and #tempimg.  Less dramatic with picture poping instantly.

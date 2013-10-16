@@ -1,0 +1,304 @@
+/*AUTHOR:Tony Ling
+CSS code for HTML files for ness' website
+*/
+.unselect{
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  }
+.clear{
+clear:both;
+}
+body{
+margin:0px;
+padding:0px;
+height:auto;
+background-color:#2b8956;
+}
+img {
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+.bg {
+display:block;
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top, #B2E7CA 0%, #2b8956 100%);
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #B2E7CA 0%, #2b8956 100%);
+/* Opera */ 
+background-image: -o-linear-gradient(top, #B2E7CA 0%, #2b8956 100%);
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #B2E7CA), color-stop(1, #2b8956));
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #B2E7CA 0%, #2b8956 100%);
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #B2E7CA 0%, #2b8956 100%);
+}
+#bgFade{
+display:block;
+position:absolute;
+width:100%;
+height:100%;
+top:0;
+left:0;
+}
+.wrapper{
+/*FOR DIFFERENT WEBBROWSERS*/
+-webkit-border-top-left-radius: 200px;
+-webkit-border-top-right-radius: 200px;
+-moz-border-radius-topleft: 200px;
+-moz-border-radius-topright: 200px;
+border-top-left-radius: 200px;
+border-top-right-radius: 200px;
+display:block;
+position:relative;
+top:7%;
+height:91%;
+width:920px;
+margin:0px auto;
+
+
+}
+
+#header{
+/*FOR DIFFERENT WEBBROWSERS*/
+-webkit-border-top-left-radius:9% 80%;
+-webkit-border-top-right-radius: 9% 80%;
+-moz-border-radius-topleft: 9% 80%;
+-moz-border-radius-topright:9% 80%;
+border-top-left-radius: 9% 80%;
+border-top-right-radius: 9% 80%;
+position:relative;
+margin:0px;
+height:110px;
+width:920px;
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top, #79D5D0 0%, #319E98 100%);
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #79D5D0 0%, #319E98 100%);
+/* Opera */ 
+background-image: -o-linear-gradient(top, #79D5D0 0%, #319E98 100%);
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #79D5D0), color-stop(1, #319E98));
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #79D5D0 0%, #319E98 100%);
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #79D5D0 0%, #319E98 100%);
+margin:0px auto:
+box-shadow: 4px 4px 5px #132a3c;
+}
+#header h1{
+font-family: 'a_yummy_apologyregular',Impact,cursive,sans-serif;
+font-size:300%;
+width:550px;
+position:relative;
+margin:0px 10px;
+color:#267549;
+float:left;
+letter-spacing:4px;
+margin-left:100px;
+margin-top:20px;
+text-shadow: 1px 1px #0d2819;
+}
+#header #real{
+font-size:300%;
+font-family: 'a_yummy_apologyregular',Impact,cursive,sans-serif;
+}
+#nav{
+position:absolute;
+
+float:right;
+height:50%;
+
+width:23%;
+display:inline-block;
+top:10%;
+}
+#nav li{
+padding:10px;
+background-color:#9fc4e1;
+position:relative;
+border:1px solid #255276;
+display:inline;
+left:-10%;
+top:30%;
+margin:-3px;
+box-shadow: 4px 4px 5px #132a3c;
+}
+#nav li:hover{
+background-color:#c6dced;
+}
+#leftpic{
+border-top-left-radius:20% 49%;
+border-bottom-left-radius:20% 49%;
+}
+#rightpic{
+border-top-right-radius:20% 49%;
+border-bottom-right-radius:20% 49%;
+}
+#nav li a{
+font-family: Verdana,cursive,sans-serif;
+font-weight:bold;
+text-decoration:none;
+margin:0px;
+/* Code below removes dashed boxes on links*/
+outline-color:-moz-use-text-color;
+outline-style:none;
+outline-width:0;
+color:#132a3c;
+}
+#nav li a:hover{
+text-decoration:none;
+}
+#nav li a:visited{
+}
+.content{
+
+position:relative;
+background-color: #c6edeb;
+width:920px;
+height:815px;
+margin-top:0px;
+margin:auto;
+box-shadow: 2px 2px 10px #132a3c;
+}
+#realphotocontent{
+
+}
+#left{
+text-align:center;
+font-family:Cursive,sans-serif;
+
+position:relative;
+width:400px;
+height:80%;
+float:left;
+margin-top:5%;
+margin-left:5%;
+display:inline;
+}
+#left img{
+position:relative;
+box-shadow: 2px 2px 10px #132a3c;}
+#left img:hover{
+box-shadow: 5px 5px 10px #132a3c;}
+
+#left h6{
+text-align:center;
+font-weight:lighter;
+font-style:italic;
+}
+#left p{
+background-color:#d9f3f2;
+}
+#right{
+font-family:Cursive,sans-serif;
+letter-spacing:.5px;
+position:relative;
+height:80%;
+width:400px;
+float:right;
+margin-top:5%;
+margin-right:5%;
+
+}
+#right dl{
+position:relative;
+margin:0;
+}
+#right dt{
+background-color:#b3e7e4;
+padding:10px 5px;
+font-weight:bold;
+text-align:center;
+margin:0;
+}
+#right dd{
+background-color:#d9f3f2;
+margin:15px 0px 15px 0px;
+padding:0px;
+}
+#koala{
+display:block;
+z-index:1;
+top:-55px;
+left:-80px;
+position:absolute;
+}
+
+
+.table{
+position:relative;
+margin:0px;
+font-family:Verdana;
+letter-spacing:1%;
+color:#133c39;
+}
+
+.table table{
+position:relative;
+margin:0px auto;
+padding-left:50px;
+padding-right:50px;
+background-color:#d9f3f2;
+}
+.table #realtable img{
+
+}
+.table img{
+border-radius:10px;
+width:220px;
+height:220px;
+margin:2px;
+opacity:0.7;
+filter:alpha(opacity=70); /* For IE8 and earlier */
+}
+.table img:hover{
+box-shadow: 5px 5px 10px #132a3c;
+opacity:1.0;
+filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+.footer{
+letter-spacing:.5px;
+font-weight:lighter;
+font-family:verdana;
+height:50px;
+position:relative;
+clear:both;
+border-top:2px solid gray;
+text-align:center;
+width:70%;
+margin: 0px auto;
+margin-top:20px;
+}
+.footer a{
+color:black;
+text-decoration:none;
+/* Code below removes dashed boxes on links*/
+outline-color:-moz-use-text-color;
+outline-style:none;
+outline-width:0;
+}
+a{
+/* Code below removes dashed boxes on links*/
+outline-color:-moz-use-text-color;
+outline-style:none;
+outline-width:0;}
+.footer a:hover{
+background-color:#a6a6a6;
+}
+#google{
+text-decoration: none;
+color:rgb(19,60,57);
+}
+#google:hover{
+background-color:#a6a6a6;
+}
